@@ -4,7 +4,7 @@ def get_weather(city, api_key):
     base_url = "http://api.openweathermap.org/data/2.5/weather"
     params = {
         "q": city,
-        "appid": "9576572435f18a360ce164c81554d5a9",
+        "appid": "apikey",
         "units": "metric"  # Use "imperial" for Fahrenheit
     }
 
